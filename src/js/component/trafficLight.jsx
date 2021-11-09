@@ -4,6 +4,7 @@ export const TrafficLight = () => {
 	const [roja, cambiarRoja] = useState("luz_roja");
 	const [amarilla, cambiarAmarilla] = useState("luz_amarilla");
 	const [verde, cambiarVerde] = useState("luz_verde");
+
 	return (
 		<div className="contenedor">
 			<div className="semaforo">
@@ -16,6 +17,7 @@ export const TrafficLight = () => {
 							cambiarAmarilla("luz_amarilla");
 						}
 					}}></div>
+
 				<div
 					className={amarilla}
 					onClick={() => {
@@ -36,6 +38,7 @@ export const TrafficLight = () => {
 					}}></div>
 			</div>
 			<div className="base"></div>
+			<div className="base_plana"></div>
 		</div>
 	);
 };

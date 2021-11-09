@@ -3,8 +3,8 @@
 ##### Download using git
 
 ```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
+$ git clone https://github.com/jhomen11/Traffic-light-React.git
+$ cd Traffic-light-React
 ```
 
 ##### and install the npm package:
