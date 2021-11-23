@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export const TrafficLight = () => {
+const TrafficLight = () => {
 	const [roja, cambiarRoja] = useState("luz_roja");
 	const [amarilla, cambiarAmarilla] = useState("luz_amarilla");
 	const [verde, cambiarVerde] = useState("luz_verde");
